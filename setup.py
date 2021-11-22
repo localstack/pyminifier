@@ -22,7 +22,7 @@ except ImportError:
 cmdclass = {'build_py': build_py}
 
 setup(
-    name="pyminifier",
+    name="pyminifier-ls",
     version=pyminifier.__version__,
     description="Python code minifier, obfuscator, and compressor",
     author=pyminifier.__author__,
