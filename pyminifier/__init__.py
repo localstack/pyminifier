@@ -5,8 +5,8 @@
 # For license information see LICENSE.txt
 
 # Meta
-__version__ = '2.2'
-__version_info__ = (2, 2)
+__version__ = '2.3'
+__version_info__ = (2, 3)
 __license__ = "GPLv3" # See LICENSE.txt
 __author__ = 'Dan McDougall <daniel.mcdougall@liftoffsoftware.com>'
 
@@ -68,7 +68,7 @@ something is broken.
 # Import built-in modules
 import os, sys, re, io
 from optparse import OptionParser
-from collections import Iterable
+from collections.abc import Iterable
 
 # Import our own modules
 from . import minification
